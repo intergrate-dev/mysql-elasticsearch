@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinlogMiddlewareApplication<binlog>",
+            "request": "launch",
+            "mainClass": "top.lzzly.sync.binlog.BinlogMiddlewareApplication",
+            "projectName": "binlog"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KafkaMiddlewareApplication<kafka>",
+            "request": "launch",
+            "mainClass": "top.lzzly.sync.kafka.KafkaMiddlewareApplication",
+            "projectName": "kafka"
+        }
+    ]
+}
